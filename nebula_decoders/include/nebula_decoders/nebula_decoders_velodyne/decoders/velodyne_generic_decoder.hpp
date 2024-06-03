@@ -56,8 +56,8 @@ public:
     }
 
     double full_firing_cycle_s = SensorT::full_firing_cycle_s;
-    double single_firing_s = SensorT::single_firing_s;
-    double offset_packet_time = SensorT::offset_packet_time;
+    double single_firing_s = SensorT::getSingleFiringS();
+    double offset_packet_time = SensorT::getOffsetPacketTime();
     bool dual_mode = sensor_configuration_->return_mode == ReturnMode::DUAL;
     double firing_sequence_index, data_point_index;
     // compute timing offsets

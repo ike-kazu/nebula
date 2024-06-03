@@ -38,6 +38,19 @@ public:
     return current_block_rotation;
   }
 
+  void initializeSingleFiringS() override
+  {
+    single_firing_s = 2.304 * 1e-6;
+  }
+
+  void initializeOffsetPacketTime() override
+  {
+    offset_packet_time = 0;
+  }
+
+  static double getSingleFiringS() { return single_firing_s; }
+  static double getOffsetPacketTime() { return offset_packet_time; }
+
   constexpr static int num_maintenance_periods = 0;
 
   constexpr static int num_simultaneous_firings = 2;
@@ -49,10 +62,6 @@ public:
   constexpr static float distance_resolution_m = 0.004f;
 
   constexpr static double full_firing_cycle_s = 55.296 * 1e-6;
-
-  constexpr static double single_firing_s = 2.304 * 1e-6;
-
-  constexpr static double offset_packet_time = 0;
 
   /** Special Definitions for VLS32 support **/
   constexpr static const float VLP32_CHANNEL_DURATION =

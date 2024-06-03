@@ -32,6 +32,19 @@ public:
     return azimuth_corrected;
   }
 
+  void initializeSingleFiringS() override
+  {
+    single_firing_s = 2.304 * 1e-6;
+  }
+
+  void initializeOffsetPacketTime() override
+  {
+    offset_packet_time = 0;
+  }
+
+  static double getSingleFiringS() { return single_firing_s; }
+  static double getOffsetPacketTime() { return offset_packet_time; }
+
   constexpr static int num_maintenance_periods = 0;
 
   constexpr static int num_simultaneous_firings = 1;
@@ -43,10 +56,6 @@ public:
   constexpr static float distance_resolution_m = 0.002f;
 
   constexpr static double full_firing_cycle_s = 55.296 * 1e-6;
-
-  constexpr static double single_firing_s = 2.304 * 1e-6;
-
-  constexpr static double offset_packet_time = 0;
 
   /** Special Defines for VLP16 support **/
   constexpr static const int VLP16_FIRINGS_PER_BLOCK = 2;

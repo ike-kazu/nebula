@@ -9,7 +9,12 @@ namespace drivers
 {
 class VelodyneSensor
 {
+
+protected:
+  static double single_firing_s;
+  static double offset_packet_time;
 public:
+  // VelodyneDecoder(): single_firing_s(0.0), offset_packet_time(0.0) {}
   // To ignore an empty data blocks which is created by only VLS128 dual return mode case
   /// @brief each VLP lidars packat structure in user manual. If you know details, see commens in each <vlp_list>.hpp file.
   virtual int getNumPaddingBlocks(bool /* dual_return */) { return 0; }
@@ -22,6 +27,14 @@ public:
   /// @brief each VLP calculating sample code and formula in user manual. If you know details, see commens in each <vlp_list>.hpp file.
   virtual uint16_t getAzimuthCorrected(
     uint16_t azimuth, float azimuth_diff, int firing_sequence, int firing_order) = 0;
+
+  // initialize single_firing_s and offset_packet_time
+  virtual void initializeSingleFiringS() = 0;
+  virtual void initializeOffsetPacketTime() = 0;
+
+  // get single_firing_s and offset_packet_time
+  static double getSingleFiringS() { return single_firing_s; }
+  static double getOffsetPacketTime() { return offset_packet_time; }
 };
 }  // namespace drivers
 }  // namespace nebula
