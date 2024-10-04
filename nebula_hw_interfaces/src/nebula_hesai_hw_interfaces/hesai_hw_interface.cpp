@@ -658,11 +658,11 @@ Status HesaiHwInterface::SetRotDir(int mode)
   return Status::OK;
 }
 
-HesaiLidarMonitor HesaiHwInterface::GetLidarMonitor()
+HesaiLidarMonitor_OT128 HesaiHwInterface::GetLidarMonitor()
 {
   auto response_or_err = SendReceive(PTC_COMMAND_LIDAR_MONITOR);
   auto response = response_or_err.value_or_throw(PrettyPrintPTCError(response_or_err.error_or({})));
-  return CheckSizeAndParse<HesaiLidarMonitor>(response);
+  return CheckSizeAndParse<HesaiLidarMonitor_OT128>(response);
 }
 
 void HesaiHwInterface::IOContextRun()
@@ -1356,7 +1356,7 @@ template <typename T>
 T HesaiHwInterface::CheckSizeAndParse(const std::vector<uint8_t> & data)
 {
   if (data.size() < sizeof(T)) {
-    std::cout << "data.size() = " << data.size() << "T size" << sizeof(T) << std::endl;
+    std::cout << "data.size() = " << data.size() << ", T size = " << sizeof(T) << std::endl;
     throw std::runtime_error("Attempted to parse too-small payload");
   } else if (data.size() > sizeof(T)) {
     PrintError("Sensor returned longer payload than expected. Will parse anyway.");

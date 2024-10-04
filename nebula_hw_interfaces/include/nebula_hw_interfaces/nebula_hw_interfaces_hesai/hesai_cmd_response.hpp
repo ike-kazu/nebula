@@ -736,7 +736,7 @@ struct HesaiPtpConfig
 };
 
 /// @brief struct of PTC_COMMAND_LIDAR_MONITOR
-struct HesaiLidarMonitor
+struct HesaiLidarMonitor_OT128
 {
   // FIXME: this format is not correct for OT128
   big_int32_buf_t input_voltage;
@@ -760,13 +760,13 @@ struct HesaiLidarMonitor
 };
 
 
-inline std::ostream & operator<<(std::ostream & os, HesaiLidarMonitor const & arg)
+inline std::ostream & operator<<(std::ostream & os, HesaiLidarMonitor_OT128 const & arg)
 {
   os << "input_voltage: " << arg.input_voltage;
   os << ", ";
   os << "input_current: " << arg.input_current;
   os << ", ";
-  os << "input_power: " << arg.input_power;
+  os << "phase_offset: " << arg.phase_offset;
   os << ", ";
   os << "reserved: ";
   for (size_t i = 0; i < sizeof(arg.reserved); i++) {

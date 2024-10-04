@@ -208,7 +208,7 @@ void HesaiHwMonitorWrapper::OnHesaiLidarMonitorTimer()
     auto result = hw_interface_->GetLidarMonitor();
     std::scoped_lock lock(mtx_lidar_monitor_);
     current_lidar_monitor_time_.reset(new rclcpp::Time(parent_node_->get_clock()->now()));
-    current_monitor_.reset(new HesaiLidarMonitor(result));
+    current_monitor_.reset(new HesaiLidarMonitor_OT128(result));
   } catch (const std::system_error & error) {
     RCLCPP_ERROR_STREAM(
       rclcpp::get_logger("HesaiHwMonitorWrapper::OnHesaiLidarMonitorTimer(std::system_error)"),
