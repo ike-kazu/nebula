@@ -1,0 +1,195 @@
+[INFO] [launch]: All log files can be found below /home/kazumaikeda/.ros/log/2025-02-28-14-21-04-520913-npc2301016-98639
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [velodyne_ros_wrapper_node-1]: process started with pid [98640]
+[velodyne_ros_wrapper_node-1] [INFO] [1740720064.621570692] [velodyne_ros_wrapper_node]: Sensor Configuration: Velodyne Sensor Configuration:
+[velodyne_ros_wrapper_node-1] Sensor Model: VLP16
+[velodyne_ros_wrapper_node-1] Frame ID: velodyne
+[velodyne_ros_wrapper_node-1] Host IP: 255.255.255.255
+[velodyne_ros_wrapper_node-1] Sensor IP: 192.168.1.201
+[velodyne_ros_wrapper_node-1] Data Port: 2368
+[velodyne_ros_wrapper_node-1] Return Mode: Dual
+[velodyne_ros_wrapper_node-1] Frequency: 0
+[velodyne_ros_wrapper_node-1] MTU: 1500
+[velodyne_ros_wrapper_node-1] Use Sensor Time: 0
+[velodyne_ros_wrapper_node-1] GNSS Port: 2369
+[velodyne_ros_wrapper_node-1] Scan Phase: 0
+[velodyne_ros_wrapper_node-1] Rotation Speed: 600
+[velodyne_ros_wrapper_node-1] FoV Start: 0
+[velodyne_ros_wrapper_node-1] FoV End: 360
+[velodyne_ros_wrapper_node-1] [INFO] [1740720064.622665381] [velodyne_ros_wrapper_node.VelodyneDecoder]: Using calibration data from /home/kazumaikeda/codes/work/src/nebula/install/nebula_decoders/share/nebula_decoders/calibration/velodyne/VLP16.yaml
+[velodyne_ros_wrapper_node-1] [INFO] [1740720064.622674560] [velodyne_ros_wrapper_node.VelodyneDecoder]: Starting Decoder
+[velodyne_ros_wrapper_node-1] [INFO] [1740720064.623701072] [velodyne_ros_wrapper_node.VelodyneDecoder]: . Wrapper=OK
+[velodyne_ros_wrapper_node-1] [INFO] [1740720064.623998088] [velodyne_ros_wrapper_node]: Hardware connection disabled, listening for packets on /velodyne_packets
+[velodyne_ros_wrapper_node-1] [WARN] [1740720064.723876109] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[velodyne_ros_wrapper_node-1] [INFO] [1740720067.197009856] [rclcpp]: signal_handler(signum=2)
+[velodyne_ros_wrapper_node-1] terminate called without an active exception
+[ERROR] [velodyne_ros_wrapper_node-1]: process has died [pid 98640, exit code -6, cmd '/home/kazumaikeda/codes/work/src/nebula/install/nebula_ros/lib/nebula_ros/velodyne_ros_wrapper_node --ros-args -r __node:=velodyne_ros_wrapper_node --params-file /tmp/launch_params_jemw_rqd --params-file /tmp/launch_params_99j1erhl'].

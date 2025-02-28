@@ -60,6 +60,11 @@ Vlp16Decoder::Vlp16Decoder(
   phase_ = (uint16_t)round(sensor_configuration_->scan_phase * 100);
 }
 
+drivers::NebulaPoint previous_point;
+double previous_block_timestamp = 0.0;
+double previous_scan_timestamp = 0.0;
+double previous_point_time_offset = 0.0;
+
 std::tuple<drivers::NebulaPointCloudPtr, double> Vlp16Decoder::get_pointcloud()
 {
   double phase = angles::from_degrees(sensor_configuration_->scan_phase);
@@ -107,12 +112,12 @@ void Vlp16Decoder::reset_overflow(double time_stamp)
   // Detect cases where there is an unacceptable time difference between the last overflow point and
   // the first point of the next packet. In that case, there was probably a packet drop so it is
   // better to ignore the overflow pointcloud
-  if (time_stamp - last_overflow_time_stamp > 0.05) {
-    scan_timestamp_ = -1;
-    overflow_pc_->points.clear();
-    overflow_pc_->points.reserve(max_pts_);
-    return;
-  }
+  // if (time_stamp - last_overflow_time_stamp > 0.05) {
+  //   scan_timestamp_ = -1;
+  //   overflow_pc_->points.clear();
+  //   overflow_pc_->points.reserve(max_pts_);
+  //   return;
+  // }
 
   // Add the overflow buffer points
   while (overflow_pc_->points.size() > 0) {
@@ -125,7 +130,7 @@ void Vlp16Decoder::reset_overflow(double time_stamp)
     overflow_point.time_stamp =
       static_cast<uint32_t>(new_timestamp_seconds < 0.0 ? 0.0 : 1e9 * new_timestamp_seconds);
 
-    scan_pc_->points.emplace_back(overflow_point);
+    // scan_pc_->points.emplace_back(overflow_point);
     overflow_pc_->points.pop_back();
   }
 
@@ -321,6 +326,19 @@ void Vlp16Decoder::unpack(const std::vector<uint8_t> & packet, double packet_sec
                 current_point.intensity = intensity;
                 current_point.distance = distance;
                 scan_pc_->points.emplace_back(current_point);
+                if (current_point.time_stamp - previous_point.time_stamp > 1e7) {
+                  std::cout << "current_point block_timestamp: " << block_timestamp << std::endl;
+                  std::cout << "current_point scan_timestamp_: " << scan_timestamp_ << std::endl;
+                  std::cout << "current_point point_time_offset: " << point_time_offset << std::endl;
+
+                  std::cout <<  "previous_point block_timestamp: " << previous_block_timestamp << std::endl;
+                  std::cout <<  "previous_previous_scan_timestamp: " << previous_scan_timestamp << std::endl;
+                  std::cout <<  "previous_previous_point_time_offset: " << previous_point_time_offset << std::endl;
+                }
+                previous_point = current_point;
+                previous_block_timestamp = block_timestamp;
+                previous_scan_timestamp = scan_timestamp_;
+                previous_point_time_offset = point_time_offset;
               }
             }
           }
