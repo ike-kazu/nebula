@@ -1,7 +1,7 @@
-[INFO] [launch]: All log files can be found below /home/kazumaikeda/.ros/log/2025-02-28-14-21-04-520913-npc2301016-98639
+[INFO] [launch]: All log files can be found below /home/kazumaikeda/.ros/log/2025-03-03-13-20-32-123795-npc2301016-42723
 [INFO] [launch]: Default logging verbosity is set to INFO
-[INFO] [velodyne_ros_wrapper_node-1]: process started with pid [98640]
-[velodyne_ros_wrapper_node-1] [INFO] [1740720064.621570692] [velodyne_ros_wrapper_node]: Sensor Configuration: Velodyne Sensor Configuration:
+[INFO] [velodyne_ros_wrapper_node-1]: process started with pid [42724]
+[velodyne_ros_wrapper_node-1] [INFO] [1740975632.222900016] [velodyne_ros_wrapper_node]: Sensor Configuration: Velodyne Sensor Configuration:
 [velodyne_ros_wrapper_node-1] Sensor Model: VLP16
 [velodyne_ros_wrapper_node-1] Frame ID: velodyne
 [velodyne_ros_wrapper_node-1] Host IP: 255.255.255.255
@@ -16,180 +16,963 @@
 [velodyne_ros_wrapper_node-1] Rotation Speed: 600
 [velodyne_ros_wrapper_node-1] FoV Start: 0
 [velodyne_ros_wrapper_node-1] FoV End: 360
-[velodyne_ros_wrapper_node-1] [INFO] [1740720064.622665381] [velodyne_ros_wrapper_node.VelodyneDecoder]: Using calibration data from /home/kazumaikeda/codes/work/src/nebula/install/nebula_decoders/share/nebula_decoders/calibration/velodyne/VLP16.yaml
-[velodyne_ros_wrapper_node-1] [INFO] [1740720064.622674560] [velodyne_ros_wrapper_node.VelodyneDecoder]: Starting Decoder
-[velodyne_ros_wrapper_node-1] [INFO] [1740720064.623701072] [velodyne_ros_wrapper_node.VelodyneDecoder]: . Wrapper=OK
-[velodyne_ros_wrapper_node-1] [INFO] [1740720064.623998088] [velodyne_ros_wrapper_node]: Hardware connection disabled, listening for packets on /velodyne_packets
-[velodyne_ros_wrapper_node-1] [WARN] [1740720064.723876109] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] [INFO] [1740975632.224114892] [velodyne_ros_wrapper_node.VelodyneDecoder]: Using calibration data from /home/kazumaikeda/codes/work/src/nebula/install/nebula_decoders/share/nebula_decoders/calibration/velodyne/VLP16.yaml
+[velodyne_ros_wrapper_node-1] [INFO] [1740975632.224125743] [velodyne_ros_wrapper_node.VelodyneDecoder]: Starting Decoder
+[velodyne_ros_wrapper_node-1] [INFO] [1740975632.225262999] [velodyne_ros_wrapper_node.VelodyneDecoder]: . Wrapper=OK
+[velodyne_ros_wrapper_node-1] [INFO] [1740975632.225607847] [velodyne_ros_wrapper_node]: Hardware connection disabled, listening for packets on /velodyne_packets
+[velodyne_ros_wrapper_node-1] [WARN] [1740975632.325530162] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975637.425397103] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] current point timestamp: 2696990
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.380687952
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.3779909611
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.002696990966796875
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 2741886
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.3794264793
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.3779909611
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.0014355182647705078125
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 5386352
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.3833773136
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.3779909611
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.0053863525390625
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 5444837
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.3821294308
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.3779909611
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.004138469696044921875
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 9369850
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.3873608112
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.3779909611
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.00936985015869140625
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 9402109
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.3860867023
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.3779909611
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.00809574127197265625
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 10648488
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.3886394501
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.3779909611
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.010648488998413085938
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 10676218
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.3873608112
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.3779909611
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.00936985015869140625
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 14693260
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.3926842213
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.3779909611
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.01469326019287109375
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 14722738
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.3914096355
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.3779909611
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.013418674468994140625
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.001304063946008682251
+[velodyne_ros_wrapper_node-1] current point timestamp: 0
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: 0
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 17344785
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.3940293789
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.3779909611
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.016038417816162109375
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 1272916
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.3965857029
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.0012729167938232421875
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 1306368
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: 0
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 3981113
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.3992938995
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.003981113433837890625
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 4023624
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.3980300426
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.0027172565460205078125
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 5254507
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.4005672932
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.0052545070648193359375
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 5287481
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.3992938995
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.003981113433837890625
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 7958889
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.4032716751
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.007958889007568359375
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 8025242
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.4020316601
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.0067188739776611328125
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 11876106
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.4071888924
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.01187610626220703125
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 11907253
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.4059159756
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.010603189468383789062
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.001304063946008682251
+[velodyne_ros_wrapper_node-1] current point timestamp: 14575481
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.4098882675
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.014575481414794921875
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 14612747
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.4086191654
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.013306379318237304688
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 82381963
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.4776947498
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.082381963729858398438
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 15881849
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.4098882675
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.014575481414794921875
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] [WARN] [1740975642.525361762] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] current point timestamp: 86320161
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.4816329479
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.086320161819458007812
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 86366249
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.4803726673
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.085059881210327148438
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 91737270
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.4870500565
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.091737270355224609375
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 91756654
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.485763073
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.090450286865234375
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 93014478
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.4883272648
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.093014478683471679688
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 93043638
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.4870500565
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.091737270355224609375
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 96963405
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.4922761917
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.096963405609130859375
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 97007904
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.4910166264
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.095703840255737304688
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.001304063946008682251
+[velodyne_ros_wrapper_node-1] current point timestamp: 98237752
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.098237752914428710938
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 98269773
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.4922761917
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.096963405609130859375
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 1428604
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.4949791431
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.0014286041259765625
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 99541816
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.3953127861
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.098237752914428710938
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.001304063946008682251
+[velodyne_ros_wrapper_node-1] current point timestamp: 2706050
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.4962565899
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.002706050872802734375
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 2734972
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.4949791431
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.0014286041259765625
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 7534027
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.5010845661
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.007534027099609375
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 8834196
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.5010783672
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.007527828216552734375
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 8108377
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.5016589165
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.0081083774566650390625
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 8840395
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.5010845661
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.007534027099609375
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 9297609
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.5028481483
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.0092976093292236328125
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 9414745
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.5016589165
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.0081083774566650390625
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 11995077
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.5055456161
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.011995077133178710938
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 12033535
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.5042777061
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.010727167129516601562
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 14711856
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.5082623959
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.014711856842041015625
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 14744911
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.5069913864
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.013440847396850585938
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.001304063946008682251
+[velodyne_ros_wrapper_node-1] current point timestamp: 15984773
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.5095353127
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.015984773635864257812
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 16018224
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.5082623959
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.014711856842041015625
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 83831787
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.5773823261
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.083831787109375
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
-[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1.72189e+09
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 17291141
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.5095353127
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.015984773635864257812
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 87535381
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.5810859203
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.087535381317138671875
 [velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
-[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1.72189e+09
-[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.00130637
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 88837696
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.5810818672
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.087531328201293945312
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 87797641
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.5813481808
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.087797641754150390625
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 88841749
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.5810859203
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.087535381317138671875
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 89083433
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.5826339722
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.089083433151245117188
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 89104009
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.5813481808
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.087797641754150390625
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 91781616
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.5853321552
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.0917816162109375
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 91862035
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.5841062069
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.090555667877197265625
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 96933603
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.5904841423
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.096933603286743164062
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 98235679
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.5904798508
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.096929311752319335938
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 97082376
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.5906329155
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.097082376480102539062
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 98239971
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.5904841423
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.096933603286743164062
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 99786281
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.5933368206
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.099786281585693359375
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 99820766
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.5920672417
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.098516702651977539062
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.001304063946008682251
+[velodyne_ros_wrapper_node-1] current point timestamp: 0
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: 0
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 102511320
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.5947577953
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.493550539
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.10120725631713867188
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.001304063946008682251
+[velodyne_ros_wrapper_node-1] current point timestamp: 4055261
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.5999286175
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.0040552616119384765625
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 4086805
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.5986537933
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.002780437469482421875
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 5328893
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.6012022495
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.0053288936614990234375
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 5361629
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.5999286175
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.0040552616119384765625
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 8019208
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.6038925648
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.0080192089080810546875
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 8065534
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.6026325226
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.006759166717529296875
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 9307146
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.6051805019
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.0093071460723876953125
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 9325576
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.6038925648
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.0080192089080810546875
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 11930942
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.6078042984
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.011930942535400390625
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 12034568
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.6066038609
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.010730504989624023438
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.001304063946008682251
+[velodyne_ros_wrapper_node-1] current point timestamp: 81190586
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.677063942
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.081190586090087890625
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 14656854
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.6092238426
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.01335048675537109375
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 83870887
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.6797442436
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.08387088775634765625
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 83968076
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.6785373688
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.082664012908935546875
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.001304063946008682251
+[velodyne_ros_wrapper_node-1] current point timestamp: 85144281
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.6810176373
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.085144281387329101562
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 85177255
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.6797442436
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.08387088775634765625
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 89122295
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.6849956512
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.089122295379638671875
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 89226080
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.6837930679
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.087919712066650390625
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 92284202
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.6881575584
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.09228420257568359375
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 93586517
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.6881535053
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.092280149459838867188
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 93567609
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.6894409657
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.093567609786987304688
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 93590570
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.6881575584
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.09228420257568359375
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 94533205
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.6904065609
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.094533205032348632812
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 94873977
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.6894409657
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.093567609786987304688
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 97147226
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.6930205822
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.097147226333618164062
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 98174724
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.6927440166
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.096870660781860351562
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.001304063946008682251
+[velodyne_ros_wrapper_node-1] current point timestamp: 0
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.6957342625
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.6957342625
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: 0
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 99815202
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.6943821907
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.5958733559
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.0985088348388671875
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 1273632
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.6970078945
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.6957342625
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.001273632049560546875
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 1306368
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.6957342625
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.6957342625
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: 0
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 2571105
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.6983053684
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.6957342625
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.00257110595703125
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 2580000
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.6970078945
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.6957342625
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.001273632049560546875
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 5252122
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.7009863853
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.6957342625
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.0052521228790283203125
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 5295349
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.6997232437
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.6957342625
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.0039889812469482421875
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 6524562
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.7022588253
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.6957342625
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.006524562835693359375
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 6558490
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.7009863853
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.6957342625
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.0052521228790283203125
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 10501623
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.7062358856
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.6957342625
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.010501623153686523438
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 10543657
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.7049715519
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.6957342625
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.0092372894287109375
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 13201236
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.7089354992
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.6957342625
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.013201236724853515625
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 13278080
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.7077059746
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.6957342625
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.011971712112426757812
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] current point timestamp: 82335233
+[velodyne_ros_wrapper_node-1] current_point block_timestamp: 1721890195.7780694962
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_: 1721890195.6957342625
+[velodyne_ros_wrapper_node-1] current_point scan_timestamp_ - block_timestamp: -0.082335233688354492188
+[velodyne_ros_wrapper_node-1] current_point point_time_offset: 0
+[velodyne_ros_wrapper_node-1] previous_point timestamp: 15836073
+[velodyne_ros_wrapper_node-1] previous_point block_timestamp: 1721890195.7102639675
+[velodyne_ros_wrapper_node-1] previous_previous_scan_timestamp: 1721890195.6957342625
+[velodyne_ros_wrapper_node-1] previous_point scan_timestamp_ - block_timestamp: -0.014529705047607421875
+[velodyne_ros_wrapper_node-1] previous_previous_point_time_offset: 0.0013063680380582809448
+[velodyne_ros_wrapper_node-1] [WARN] [1740975647.525448760] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975652.525479192] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975657.625461023] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975662.725411983] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975667.725439602] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975672.825389361] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975677.825393389] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975682.825454662] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975687.825479998] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975692.925398344] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975697.925477136] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975703.025428156] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975708.025456419] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975713.025490219] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975718.125491986] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975723.225458671] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975728.325386341] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975733.325468184] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975738.425393191] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975743.525426387] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975748.525467321] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975753.525467955] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975758.625471106] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975763.625477262] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975768.725470311] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975773.825497369] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975778.925465527] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975783.925478443] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975789.025389509] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975794.025449794] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975799.125388934] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975804.125440817] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975809.225419790] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975814.325424360] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975819.325430099] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975824.325481097] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975829.425362360] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975834.425389793] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975839.525436439] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975844.625440921] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975849.725372098] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975854.725390510] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975859.725390948] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975864.725407699] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975869.825471247] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975874.925366051] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975879.925400524] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975885.025479852] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975890.125366137] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975895.125391399] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975900.125446157] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975905.125470014] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975910.225450157] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975915.325387301] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975920.425361622] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975925.425395186] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975930.425427358] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975935.525401133] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975940.625444039] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975945.625465961] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975950.725369044] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975955.725371658] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975960.725536641] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975965.825445047] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975970.925443029] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975976.025454711] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975981.125360781] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975986.125404327] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975991.225398540] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740975996.225458610] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976001.225492927] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976006.325379115] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976011.325413646] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976016.325452326] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976021.325525597] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976026.425456413] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976031.425476258] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976036.525502679] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976041.625470950] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976046.725395299] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976051.725503075] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976056.825399763] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976061.825476232] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976066.925445741] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976072.025430833] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976077.025472813] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976082.125404891] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976087.125453112] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976092.125470248] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976097.125489078] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976102.225462243] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976107.225469125] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976112.325432684] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976117.325475393] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976122.425462036] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976127.425474044] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976132.425477908] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976137.525470254] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976142.625479068] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976147.725465154] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976152.725466647] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976157.725468250] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976162.725478121] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976167.725504076] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976172.825467287] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976177.825487196] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976182.925374627] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976187.925386316] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976192.925456920] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976197.925465942] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976202.925471137] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976207.925499631] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976213.025501876] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976218.125473155] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976223.225379173] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976228.225418857] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976233.225476101] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976238.325425911] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976243.325477159] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976248.425504683] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976253.525474391] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976258.625500259] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976263.725476512] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976268.825461893] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976273.925432458] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976278.925480568] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976283.925496982] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976288.925497506] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976294.025413474] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976299.025479134] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976304.125478901] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976309.225411048] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976314.225476375] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976319.325469796] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976324.325471266] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976329.325486104] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976334.425470580] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976339.525470881] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976344.525511040] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976349.625373257] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976354.625436856] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976359.625483912] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976364.725486162] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976369.825402807] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976374.825489116] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976379.925498081] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976384.925507765] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976390.025489965] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976395.025509663] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976400.125510128] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976405.225465797] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976410.225472598] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976415.225476616] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976420.225569724] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976425.325509593] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976430.425464723] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976435.425470484] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976440.425500487] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976445.425510694] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976450.525389802] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976455.525490890] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976460.625484357] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976465.725396553] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976470.725467589] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976475.825392407] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976480.825402184] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976485.825493146] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976490.925493663] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976495.925503609] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976501.025476055] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976506.125429040] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976511.225345490] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976516.225491134] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976521.325405276] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976526.325498752] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976531.425524388] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976536.525472492] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976541.625397031] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976546.625428636] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976551.725427007] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976556.725472773] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976561.725503240] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976566.825463325] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976571.925432967] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976576.925474046] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976581.925504971] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976587.025487738] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976592.125498541] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976597.125587918] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976602.225476974] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976607.325381465] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976612.325472377] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976617.325497949] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976622.425453008] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976627.425511835] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976632.525411478] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976637.525477037] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976642.525492804] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976647.625388597] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976652.625485181] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976657.725407507] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976662.725482281] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976667.725497447] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976672.725505149] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976677.825471257] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976682.825475921] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976687.925437549] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976692.925484755] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976698.025456691] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976703.025500077] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976708.125436500] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976713.125481789] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976718.225477726] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976723.225483384] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976728.225513318] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976733.325512853] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976738.425463995] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976743.525337837] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976748.525390472] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976753.525471368] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976758.525479518] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976763.525486783] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976768.625473100] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976773.725438036] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976778.825435976] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976783.825473573] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976788.925474791] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976794.025460276] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976799.025497632] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976804.125461999] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976809.125489522] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976814.225477334] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976819.225478427] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976824.325474769] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976829.425500806] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976834.525397462] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976839.525485997] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976844.625473527] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976849.725451229] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976854.825472603] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976859.825486302] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976864.925419532] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976870.025404980] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976875.125404567] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976880.225405207] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976885.225405868] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976890.325402326] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976895.425346414] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976900.425473365] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976905.525431840] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976910.525501374] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976915.625378671] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976920.625421619] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976925.625433435] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976930.625479966] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976935.625492864] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976940.725479039] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976945.825469265] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976950.825473242] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976955.925397056] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976960.925466531] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976966.025442337] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976971.125478574] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976976.225499571] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976981.325414267] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976986.425391831] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976991.425487600] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740976996.425520518] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977001.525507789] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977006.625480443] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977011.725481151] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977016.825461183] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977021.825477198] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977026.925394584] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977031.925467534] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977037.025468033] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977042.125472068] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977047.225449423] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977052.225477353] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977057.225486148] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977062.325472262] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977067.425469256] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977072.525456439] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977077.525473339] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977082.625455173] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977087.725460896] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977092.725471118] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977097.825473857] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977102.925428897] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977108.025415700] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977113.025470076] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977118.125433977] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977123.225407480] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977128.225493591] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977133.325371994] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977138.325449091] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977143.325480753] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977148.425478455] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977153.525486662] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977158.625501739] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977163.725400212] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977168.725503390] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977173.825385818] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977178.825408552] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977183.825524639] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977188.925413067] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977193.925430835] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977198.925473779] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977204.025438120] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977209.125403717] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977214.125458823] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977219.125502367] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977224.225403922] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977229.225447325] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977234.325489135] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977239.425393013] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977244.425443873] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977249.425456500] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977254.525454045] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977259.625453940] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977264.725400506] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977269.725471552] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977274.725477985] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977279.725498886] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977284.725500087] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977289.825399934] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977294.825477394] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977299.925465021] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977305.025475181] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977310.125464672] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977315.225474236] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977320.325393178] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977325.325495627] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977330.425466800] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977335.425472333] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977340.425472739] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977345.525470231] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977350.525477296] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977355.625380099] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977360.625467277] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977365.725397884] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977370.725446888] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977375.825540034] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977380.925361646] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977385.925444846] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977390.925465944] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977396.025448361] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977401.125442605] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977406.125474400] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977411.225444815] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977416.225471340] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977421.325377148] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977426.325394730] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977431.325462346] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977436.325478455] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977441.425469714] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977446.525463911] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977451.625492123] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977456.725385746] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977461.725448605] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977466.825439900] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977471.825468229] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977476.825486437] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977481.925419880] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977487.025379193] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977492.025487607] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977497.125383570] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977502.125429317] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977507.125488428] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977512.225496631] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977517.325486620] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977522.425463809] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977527.425476399] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977532.525469873] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977537.525483392] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977542.625405679] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977547.625460275] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977552.725486351] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977557.825460769] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977562.925479079] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977568.025468225] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977573.125399283] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977578.225398990] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977583.225457159] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977588.325400526] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977593.425459542] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977598.525467236] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977603.625412977] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[velodyne_ros_wrapper_node-1] [WARN] [1740977608.625471396] [velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
-[velodyne_ros_wrapper_node-1] [INFO] [1740720067.197009856] [rclcpp]: signal_handler(signum=2)
+[velodyne_ros_wrapper_node-1] [INFO] [1740977613.245387160] [rclcpp]: signal_handler(signum=2)
 [velodyne_ros_wrapper_node-1] terminate called without an active exception
-[ERROR] [velodyne_ros_wrapper_node-1]: process has died [pid 98640, exit code -6, cmd '/home/kazumaikeda/codes/work/src/nebula/install/nebula_ros/lib/nebula_ros/velodyne_ros_wrapper_node --ros-args -r __node:=velodyne_ros_wrapper_node --params-file /tmp/launch_params_jemw_rqd --params-file /tmp/launch_params_99j1erhl'].
+[ERROR] [velodyne_ros_wrapper_node-1]: process has died [pid 42724, exit code -6, cmd '/home/kazumaikeda/codes/work/src/nebula/install/nebula_ros/lib/nebula_ros/velodyne_ros_wrapper_node --ros-args -r __node:=velodyne_ros_wrapper_node --params-file /tmp/launch_params_u517xvmk --params-file /tmp/launch_params_mn1jrsm2'].

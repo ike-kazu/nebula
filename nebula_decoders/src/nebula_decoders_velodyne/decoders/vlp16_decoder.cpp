@@ -327,12 +327,17 @@ void Vlp16Decoder::unpack(const std::vector<uint8_t> & packet, double packet_sec
                 current_point.distance = distance;
                 scan_pc_->points.emplace_back(current_point);
                 if (current_point.time_stamp - previous_point.time_stamp > 1e7) {
+	                std::cout << std::setprecision(20);
+                  std::cout << "current point timestamp: " << current_point.time_stamp << std::endl;
                   std::cout << "current_point block_timestamp: " << block_timestamp << std::endl;
                   std::cout << "current_point scan_timestamp_: " << scan_timestamp_ << std::endl;
+                  std::cout << "current_point scan_timestamp_ - block_timestamp: " << scan_timestamp_ - block_timestamp << std::endl;
                   std::cout << "current_point point_time_offset: " << point_time_offset << std::endl;
 
+                  std::cout <<  "previous_point timestamp: " << previous_point.time_stamp << std::endl;
                   std::cout <<  "previous_point block_timestamp: " << previous_block_timestamp << std::endl;
                   std::cout <<  "previous_previous_scan_timestamp: " << previous_scan_timestamp << std::endl;
+                  std::cout << "previous_point scan_timestamp_ - block_timestamp: " << previous_scan_timestamp - previous_block_timestamp << std::endl;
                   std::cout <<  "previous_previous_point_time_offset: " << previous_point_time_offset << std::endl;
                 }
                 previous_point = current_point;
