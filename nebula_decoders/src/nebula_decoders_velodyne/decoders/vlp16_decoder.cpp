@@ -5,6 +5,7 @@
 #include <angles/angles.h>
 
 #include <cmath>
+#include <cstdint>
 #include <memory>
 #include <tuple>
 #include <utility>
@@ -64,6 +65,7 @@ drivers::NebulaPoint previous_point;
 double previous_block_timestamp = 0.0;
 double previous_scan_timestamp = 0.0;
 double previous_point_time_offset = 0.0;
+uint16_t previous_azimuth = 0;
 
 std::tuple<drivers::NebulaPointCloudPtr, double> Vlp16Decoder::get_pointcloud()
 {
@@ -333,17 +335,22 @@ void Vlp16Decoder::unpack(const std::vector<uint8_t> & packet, double packet_sec
                   std::cout << "current_point scan_timestamp_: " << scan_timestamp_ << std::endl;
                   std::cout << "current_point scan_timestamp_ - block_timestamp: " << scan_timestamp_ - block_timestamp << std::endl;
                   std::cout << "current_point point_time_offset: " << point_time_offset << std::endl;
+                  std::cout << "current azimuth: " << current_point.azimuth << std::endl;
+                  std::cout << "azimuth" << azimuth << std::endl;
 
                   std::cout <<  "previous_point timestamp: " << previous_point.time_stamp << std::endl;
                   std::cout <<  "previous_point block_timestamp: " << previous_block_timestamp << std::endl;
                   std::cout <<  "previous_previous_scan_timestamp: " << previous_scan_timestamp << std::endl;
                   std::cout << "previous_point scan_timestamp_ - block_timestamp: " << previous_scan_timestamp - previous_block_timestamp << std::endl;
                   std::cout <<  "previous_previous_point_time_offset: " << previous_point_time_offset << std::endl;
+                  std::cout <<  "previous_points.azimuth: " << previous_point.azimuth << std::endl;
+                  std::cout << "previous azimuth" << azimuth << std::endl;
                 }
                 previous_point = current_point;
                 previous_block_timestamp = block_timestamp;
                 previous_scan_timestamp = scan_timestamp_;
                 previous_point_time_offset = point_time_offset;
+                previous_azimuth = azimuth;
               }
             }
           }
