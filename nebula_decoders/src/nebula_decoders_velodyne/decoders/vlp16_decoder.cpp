@@ -5,6 +5,7 @@
 #include <angles/angles.h>
 
 #include <cmath>
+#include <iostream>
 #include <memory>
 #include <tuple>
 #include <utility>
@@ -22,7 +23,8 @@ Vlp16Decoder::Vlp16Decoder(
   sensor_configuration_ = sensor_configuration;
   calibration_configuration_ = calibration_configuration;
 
-  scan_timestamp_ = -1;
+  // inf
+  scan_timestamp_ = std::numeric_limits<double>::quiet_NaN();
 
   scan_pc_.reset(new NebulaPointCloud);
   overflow_pc_.reset(new NebulaPointCloud);
@@ -95,21 +97,7 @@ void Vlp16Decoder::reset_pointcloud(double time_stamp)
 void Vlp16Decoder::reset_overflow(double time_stamp)
 {
   if (overflow_pc_->points.size() == 0) {
-    scan_timestamp_ = -1;
-    overflow_pc_->points.reserve(max_pts_);
-    return;
-  }
-
-  // Compute the absolute time stamp of the last point of the overflow pointcloud
-  const double last_overflow_time_stamp =
-    scan_timestamp_ + 1e-9 * overflow_pc_->points.back().time_stamp;
-
-  // Detect cases where there is an unacceptable time difference between the last overflow point and
-  // the first point of the next packet. In that case, there was probably a packet drop so it is
-  // better to ignore the overflow pointcloud
-  if (time_stamp - last_overflow_time_stamp > 0.05) {
-    scan_timestamp_ = -1;
-    overflow_pc_->points.clear();
+    scan_timestamp_ = std::numeric_limits<double>::quiet_NaN();
     overflow_pc_->points.reserve(max_pts_);
     return;
   }
@@ -129,8 +117,11 @@ void Vlp16Decoder::reset_overflow(double time_stamp)
     overflow_pc_->points.pop_back();
   }
 
-  // When there is overflow, the timestamp becomes the overflow packets' one
-  scan_timestamp_ = last_block_timestamp_;
+  if (!scan_pc_->points.empty()) {
+    scan_timestamp_ = scan_pc_->points.front().time_stamp;
+  } else {
+    scan_timestamp_ = std::numeric_limits<double>::quiet_NaN();
+  }
   overflow_pc_->points.clear();
   overflow_pc_->points.reserve(max_pts_);
 }
@@ -203,7 +194,7 @@ void Vlp16Decoder::unpack(const std::vector<uint8_t> & packet, double packet_sec
           }
           // Apply timestamp if this is the first new packet in the scan.
           auto block_timestamp = packet_seconds;
-          if (scan_timestamp_ < 0) {
+          if (std::isnan(scan_timestamp_)) {
             scan_timestamp_ = block_timestamp;
           }
           // Do not process if there is no return, or in dual return mode and the first and last
